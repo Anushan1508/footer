@@ -7,7 +7,7 @@ import './Contact.css';
 
 function Contact() {
     return (
-        <div>
+        <div className="contact">
             <Hero
                 heading="Contact Us"
                 background={contactUsImg}
@@ -42,14 +42,22 @@ function Contact() {
                     </div>
                     <div className="company-details-container">
                         <div className="company-address">
-                            <h3><i className="fas fa-map-marker-alt"></i> Address</h3>
+                            <h3>
+                                {/*<i className="fas fa-map-marker-alt"></i>*/}
+                                Address</h3>
                             <p>123 Main St</p>
                             <p>New York, NY 10001</p>
                         </div>
                         <div className="company-phone-email">
-                            <h3><i className="fas fa-phone-alt"></i> Phone &amp; Email</h3>
-                            <p><i className="fas fa-phone"></i> (123) 456-7890</p>
-                            <p><i className="fas fa-envelope"></i> info@example.com</p>
+                            <h3>
+                                {/*<i className="fas fa-phone-alt"></i> */}
+                                Phone &amp; Email</h3>
+                            <p>
+                                {/*<i className="fas fa-phone"></i> */}
+                                (123) 456-7890</p>
+                            <p>
+                                {/*<i className="fas fa-envelope"></i> */}
+                                info@example.com</p>
                         </div>
                     </div>
                 </div>

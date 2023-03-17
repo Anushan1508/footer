@@ -5,7 +5,7 @@ import myImage2 from '../../asserts/photosgrid/img2.jpg';
 
 function Footer() {
     return (
-        <footer>
+        <footer className="">
             <section className="footer-row">
                 <div className="footer-col-1">
                     <img src={myImage2} alt="Title 1"/>

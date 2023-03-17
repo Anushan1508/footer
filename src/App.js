@@ -1,5 +1,5 @@
 import './App.css';
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 import Contact from "./pages/contactus/Contact";
 // import Service from "./pages/service/Service";
 
@@ -7,9 +7,8 @@ import Contact from "./pages/contactus/Contact";
 function App() {
     return (
         <div className="App">
-            {/*<Service/>*/}
-            <Contact/>
-            {/*<Footer/>*/}
+                <Contact/>
+                <Footer/>
         </div>
     );
 }
