@@ -1,0 +1,48 @@
+.hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; /* add this line to make the hero element span the full width of the page */
+}
+
+section {
+    max-width: 80%; /* change this line to limit the text content to 80% of the page width */
+    margin: 0 auto;
+}
+
+/* remove left: 10% from the .hero-heading selector to center the heading within the section */
+.hero-heading {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 400px;
+    }
+
+    .hero-heading {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        height: 300px;
+    }
+
+    .hero-heading {
+        font-size: 1.5rem;
+    }
+}
