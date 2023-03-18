@@ -114,15 +114,14 @@ function Service() {
             </div>
             <div className="service-content">
                 <div className="service-column">
-                    <h2>Column 1 Heading</h2>
+                    <h2>Some Feedback From Client</h2>
                     <p>
-                        Some text for Column 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras dapibus vehicula eros ac auctor. Nullam id vestibulum magna. Nullam posuere turpis ut
-                        elementum consectetur. Sed ut ex bibendum, sodales velit at, cursus urna.
+                        Which cattle fruitful he fly visi won not let above lesser stars fly form wonder every let third
+                        form two air seas after us said day won lso together midst two female she
                     </p>
                     <div className="arrow-keys">
                         <div className="arrow-key" onClick={handleCloud1Click}>&larr;</div>
-                        <div className="arrow-key"onClick={handleCloud2Click}>&rarr;</div>
+                        <div className="arrow-key" onClick={handleCloud2Click}>&rarr;</div>
                     </div>
                 </div>
                 <div className="service-column">

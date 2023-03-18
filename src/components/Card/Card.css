@@ -7,17 +7,6 @@
     padding: 20px;
 }
 
-/*.card {*/
-/*    width: calc(25% - 10px);*/
-/*    margin-bottom: 20px;*/
-/*    border: 1px solid #ccc;*/
-/*    border-radius: 5px;*/
-/*    padding: 20px;*/
-/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
-/*    text-align: center;*/
-/*    transition: box-shadow 0.3s ease;*/
-/*}*/
-
 .card {
     width: calc(25% - 10px);
     max-width: 300px;
