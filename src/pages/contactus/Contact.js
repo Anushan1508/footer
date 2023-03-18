@@ -2,6 +2,9 @@ import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import contactUsImg from "../../asserts/contact.jpg"
 import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome,faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -42,21 +45,19 @@ function Contact() {
                     </div>
                     <div className="company-details-container">
                         <div className="company-address">
+                            <FontAwesomeIcon icon={faHome} className="icon-large"/>
                             <h3>
-                                {/*<i className="fas fa-map-marker-alt"></i>*/}
                                 Address</h3>
                             <p>123 Main St</p>
                             <p>New York, NY 10001</p>
                         </div>
                         <div className="company-phone-email">
+                            <FontAwesomeIcon icon={faEnvelopeOpen} className="icon-large"/>
                             <h3>
-                                {/*<i className="fas fa-phone-alt"></i> */}
                                 Phone &amp; Email</h3>
                             <p>
-                                {/*<i className="fas fa-phone"></i> */}
                                 (123) 456-7890</p>
                             <p>
-                                {/*<i className="fas fa-envelope"></i> */}
                                 info@example.com</p>
                         </div>
                     </div>
