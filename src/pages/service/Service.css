@@ -1,0 +1,46 @@
+/* Hero Section */
+.hero {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero .heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Card Section */
+.card-section {
+    padding: 50px 0;
+}
+
+.card-section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*.card {*/

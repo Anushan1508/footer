@@ -5,7 +5,7 @@
     /*display: flex;*/
     flex-direction: column;
     min-height: 100vh;
-    padding-bottom: 35%;
+    /*padding-bottom: 35%;*/
     position: relative;
 }
 .map-container {
