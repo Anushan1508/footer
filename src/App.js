@@ -7,8 +7,8 @@ import Service from "./pages/service/Service";
 function App() {
     return (
         <div className="App">
-            <Contact/>
-            {/*<Service/>*/}
+            {/*<Contact/>*/}
+            <Service/>
             <Footer/>
         </div>
     );
