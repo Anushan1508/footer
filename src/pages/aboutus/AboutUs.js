@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Hero from "../../components/Hero/Hero";
-import contactUsImg from "../../asserts/contact.jpg";
+import aboutUsSec01 from '../../asserts/aboutus-sec1.jpg'
+import aboutImg from '../../asserts/about.jpg'
 import './AboutUs.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHome, faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons";
@@ -11,11 +12,11 @@ class AboutUs extends Component {
             <div className="about">
                 <Hero
                     heading="About Us"
-                    background={contactUsImg}
+                    background={aboutImg}
                 />
                 <div className="two-column-section">
                     <div className="image-column">
-                        <img src={contactUsImg} alt="Example Image"/>
+                        <img src={aboutUsSec01} alt="Example Image"/>
                     </div>
                     <div className="content-column">
                         <h2>Engineering Your Dreams With Us</h2>
